@@ -1,5 +1,7 @@
 # Project Setup Instructions
 
+MAKE SURE THE YELPDATASET IS IN THIS DIRECTORY UNDER: archive/yelp_academic_dataset_business.json
+
 ## Step 1: Install Ollama
 
 To install Ollama, refer to the GitHub repository for the latest instructions:
