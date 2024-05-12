@@ -1,3 +1,6 @@
 qdrant-client
 pandas
-sentence-transformers
+langchain_openai
+langchain
+langchain_experimental
+ollama
