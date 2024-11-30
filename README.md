@@ -1,3 +1,6 @@
+# About:
+ TlDR: This project attempts to implement a geo-spatial aware llm, by equiping llm with a vector database through function calling. Attempts to vectorise addresses with sentence-transformers, assuming that similar address would give similar vector.
+
 # Project Setup Instructions
 
 MAKE SURE THE YELPDATASET IS IN THIS DIRECTORY UNDER: archive/yelp_academic_dataset_business.json
@@ -34,11 +37,3 @@ pip install -r requirements.txt
 pip install -U sentence-transformers
 ```
 
-# Note:
-
-I removed coordinates from the embeddings as i felt that it was defeating the purpose of the original paper, we could experiment with it also idk. I ended up using address, city and postal code concatenated.
-Issues: when querying, name of category must be exact character for character, perhaps can create a function to parse before querying. Figure out a way to match categories as there are quite a few.
-Improvements:
-
-- create more functions to call such as filtering based on stars
-- Can edit the data schema further more, reduce or increase payload. idk which ones we want.
